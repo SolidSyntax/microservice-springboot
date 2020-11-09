@@ -1,0 +1,25 @@
+server:
+  port: 8762
+
+management:
+    web:
+      exposure:
+        include: '*'
+    endpoint:
+      health:
+        show-details: always
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      override-system-properties: false
+      server:
+        git:
+          uri: file:/PATH/microservice-springboot/config-repo
+          force-pull: true
+          refresh-rate: 10
+    bus:
+      enabled: true
+
