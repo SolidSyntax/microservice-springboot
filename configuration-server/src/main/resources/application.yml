@@ -11,15 +11,19 @@ management:
 
 spring:
   application:
-    name: config-server
+    name: configuration-server
   cloud:
     config:
       override-system-properties: false
       server:
         git:
-          uri: file:/PATH/microservice-springboot/config-repo
+          uri: file:/home/hans/ACLVB/repo/microservice-springboot/config-repo
           force-pull: true
           refresh-rate: 10
     bus:
       enabled: true
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
