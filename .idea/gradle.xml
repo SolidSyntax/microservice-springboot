@@ -5,15 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/configuration-client" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/configuration-client" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/configuration-server" />
         <option name="modules">
           <set>
@@ -27,6 +18,42 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/product-factory" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/product-factory" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/reporting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/reporting" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/store" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/store" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/warehouse" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/warehouse" />
           </set>
         </option>
       </GradleProjectSettings>

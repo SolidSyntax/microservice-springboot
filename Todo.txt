@@ -1,4 +1,0 @@
-[] Configuratie server
-[] Spring cloud bus
-[] Eureka
-[] Client app

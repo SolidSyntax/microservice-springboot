@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: product-factory
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: configuration-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

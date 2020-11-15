@@ -1,0 +1,21 @@
+server:
+  port: 0
+
+configuration:
+  interval: 10000
+  hello: Hello no profile
+
+---
+spring:
+  profiles: prod
+
+configuration:
+  hello: Hello Production
+
+---
+spring:
+  profiles: test
+
+configuration:
+  hello: Hello tester
+
