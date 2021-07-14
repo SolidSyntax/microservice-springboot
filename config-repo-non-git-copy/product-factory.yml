@@ -1,21 +1,21 @@
 server:
   port: 0
 
-configuration:
-  interval: 10000
-  hello: Hello no profile
+production:
+  interval: 2000
+  storage-capacity: 10
 
 ---
 spring:
   profiles: prod
 
-configuration:
-  hello: Hello Production
+production:
+  storage-capacity: 10
 
 ---
 spring:
   profiles: test
 
-configuration:
-  hello: Hello tester
+production:
+  storage-capacity: 5
 

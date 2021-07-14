@@ -1,13 +1,18 @@
 server:
   port: 0
 
+warehouse:
+  storage-capacity: 100
+
 ---
 spring:
   profiles: prod
 
-
+warehouse:
+  storage-capacity: 100
 
 ---
 spring:
   profiles: test
+
 
